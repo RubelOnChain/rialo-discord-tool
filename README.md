@@ -1,30 +1,39 @@
 # 🛠️ Rialo Discord Tool  
 
-A simple community-built tool designed for the **Rialo Discord community** — to make engagement, games, and activities more fun and automated!  
+A community-built **Discord tool written in Python** for the **Rialo ecosystem** — designed to automate roles, add engagement features, and make the community more interactive.  
 
 ---
 
 ## ✨ Features
-- 🎮 Mini game integration (quiz, clicker, or puzzle)
-- ⚙️ Discord bot automation (custom commands for members)
-- 💬 Role management & XP system (for active Rialo users)
-- 🧩 Built with **Python + discord.py / JavaScript + discord.js**
-- 🌐 Fully open-source for community contribution
+- 🎮 Mini commands & games (quiz, reactions, XP)
+- 🧩 Automatic role assignment
+- 💬 Message listener for engagement tracking
+- 🔔 Event and announcement notifier
+- 🔐 Secure token-based authentication
 
 ---
 
-## 🚀 How to Run (for developers)
+## 🧠 Built With
+- **Python 3.10+**
+- **discord.py** library
+- **Rialo theme styling**
+- JSON / SQLite (for small data storage)
+
+---
+
+## 🚀 How to Run Locally
+
 ```bash
-# Clone this repository
+# 1. Clone the repository
 git clone https://github.com/RubelOnChain/rialo-discord-tool.git
 cd rialo-discord-tool
 
-# Install dependencies
-npm install   # if JS
-# or
-pip install -r requirements.txt   # if Python
+# 2. Install dependencies
+pip install -r requirements.txt
 
-# Run the tool
-npm start
-# or
+# 3. Add your Discord bot token
+# Create a file named `.env` and add this line:
+DISCORD_TOKEN=your_bot_token_here
+
+# 4. Run the bot
 python main.py
